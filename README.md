@@ -14,5 +14,6 @@ http://netlib.org/sparse/
 
 see man doc:
 ```
-man ./spdoc.ms
+man  ./doc/spdoc.ms
+less ./doc/spdoc
 ```
