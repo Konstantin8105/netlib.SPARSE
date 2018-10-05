@@ -1,4 +1,3 @@
-```
 SPARSE consists of a set of C procedures for solving large sparse real or complex linear systems. Besides being able to solve linear systems, it solves transposed systems, finds determinants, and estimates errors due to ill-conditioning in the system of equations and instability in the computations. SPARSE does not require symmetry and is able to perform numerical pivoting (either diagonal or complete) to avoid unnecessary error in the solution. It was originally written for use in circuit simulators and is particularly apt at handling node- and modified-node admittance matrices.
 
 Reference
@@ -12,4 +11,3 @@ sparse@ic.berkeley.edu
 
 see more information:
 http://netlib.org/sparse/
-```
