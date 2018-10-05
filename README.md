@@ -1,22 +1,8 @@
-SPARSE consists of a set of C procedures for solving large sparse real or complex linear systems. Besides being able to solve linear systems, it solves transposed systems, finds determinants, and estimates errors due to ill-conditioning in the system of equations and instability in the computations. SPARSE does not require symmetry and is able to perform numerical pivoting (either diagonal or complete) to avoid unnecessary error in the solution. It was originally written for use in circuit simulators and is particularly apt at handling node- and modified-node admittance matrices.
+# SPARSE 1.4
 
-Reference
-    Kenneth Kundert, Sparse Matrix Techniques, in Circuit Analysis, Simulation and Design, Albert Ruehli (Ed.), North-Holland, 1986 
-Developer
-    Kenneth Kundert and Alberto Sangiovanni-Vincentelli, University of California, Berkeley 
-
-Comments and questions may be addressed to
-sparse@ic.berkeley.edu
+An open source sparse linear equation solver.
 
 
-see more information:
-http://netlib.org/sparse/
-
-```
-# see man doc
-man  ./doc/spdoc.ms
-less ./doc/spdoc
-
-# create object file
-gcc -c spfortran.c
-```
+See more information:
+* http://sparse.sourceforge.net/
+* http://netlib.org/sparse/
