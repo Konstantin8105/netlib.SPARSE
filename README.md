@@ -12,8 +12,11 @@ sparse@ic.berkeley.edu
 see more information:
 http://netlib.org/sparse/
 
-see man doc:
 ```
+# see man doc
 man  ./doc/spdoc.ms
 less ./doc/spdoc
+
+# create object file
+gcc -c spfortran.c
 ```

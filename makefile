@@ -6,7 +6,7 @@
 CFLAGS = -O
 LINTFLAGS = -lc -lm
 SHELL = /bin/sh
-CC = cc
+CC = gcc
 
 HFILES = spConfig.h spDefs.h spMatrix.h
 CFILES = spAllocate.c spBuild.c spFactor.c spOutput.c spSolve.c spUtils.c \
