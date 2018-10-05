@@ -273,7 +273,11 @@ void SolveComplexMatrix();
  *      without a trace.
  */
 
-void SolveComplexMatrix(MatrixPtr   Matrix,RealVector   RHS, Solution IMAG_VECTORS )
+static void
+SolveComplexMatrix( Matrix, RHS, Solution IMAG_VECTORS )
+
+MatrixPtr  Matrix;
+RealVector  RHS, Solution IMAG_VECTORS;
 {
 register  ElementPtr  pElement;
 register  ComplexVector  Intermediate;
@@ -589,7 +593,11 @@ void SolveComplexTransposedMatrix();
  *      without a trace.
  */
 
-void SolveComplexTransposedMatrix(MatrixPtr  Matrix,RealVector   RHS, Solution IMAG_VECTORS )
+static void
+SolveComplexTransposedMatrix(Matrix, RHS, Solution IMAG_VECTORS )
+
+MatrixPtr  Matrix;
+RealVector  RHS, Solution IMAG_VECTORS;
 {
 register  ElementPtr  pElement;
 register  ComplexVector  Intermediate;
