@@ -56,9 +56,9 @@ static char RCSid[] =
  */
 
 #define spINSIDE_SPARSE
-#include "spConfig.h"
+#include "spconfig.h"
 #include "spmatrix.h"
-#include "spDefs.h"
+#include "spdefs.h"
 
 
 
@@ -273,11 +273,7 @@ void SolveComplexMatrix();
  *      without a trace.
  */
 
-static void
-SolveComplexMatrix( Matrix, RHS, Solution IMAG_VECTORS )
-
-MatrixPtr  Matrix;
-RealVector  RHS, Solution IMAG_VECTORS;
+void SolveComplexMatrix(MatrixPtr   Matrix,RealVector   RHS, Solution IMAG_VECTORS )
 {
 register  ElementPtr  pElement;
 register  ComplexVector  Intermediate;
@@ -593,11 +589,7 @@ void SolveComplexTransposedMatrix();
  *      without a trace.
  */
 
-static void
-SolveComplexTransposedMatrix(Matrix, RHS, Solution IMAG_VECTORS )
-
-MatrixPtr  Matrix;
-RealVector  RHS, Solution IMAG_VECTORS;
+void SolveComplexTransposedMatrix(MatrixPtr  Matrix,RealVector   RHS, Solution IMAG_VECTORS )
 {
 register  ElementPtr  pElement;
 register  ComplexVector  Intermediate;

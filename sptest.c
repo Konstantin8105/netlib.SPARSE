@@ -66,7 +66,7 @@ static char RCSid[] =
 #include <math.h>
 #include <ctype.h>
 #define spINSIDE_SPARSE
-#include "spConfig.h"
+#include "spconfig.h"
 #undef spINSIDE_SPARSE
 #include "spmatrix.h"
 

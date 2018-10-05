@@ -29,7 +29,7 @@
  *  $Revision: 1.2 $
  */
 
-
+#include <stdlib.h>
 
 
 /*
@@ -426,14 +426,14 @@
  * MEMORY ALLOCATION
  */
 
-extern char *malloc(), *calloc(), *realloc();
-#ifdef ultrix
-    extern void free();
-    extern void abort();
-#else
-    extern free();
-    extern abort();
-#endif
+// extern char *malloc(), *calloc(), *realloc();
+// #ifdef ultrix
+//     extern void free();
+//     extern void abort();
+// #else
+//     extern free();
+//     extern abort();
+// #endif
 
 #define ALLOC(type,number)  ((type *)malloc((unsigned)(sizeof(type)*(number))))
 #define REALLOC(ptr,type,number)  \

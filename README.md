@@ -11,3 +11,8 @@ sparse@ic.berkeley.edu
 
 see more information:
 http://netlib.org/sparse/
+
+see man doc:
+```
+man ./spdoc.ms
+```

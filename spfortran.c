@@ -124,9 +124,9 @@ static char RCSid[] =
  */
 
 #define spINSIDE_SPARSE
-#include "spConfig.h"
+#include "spconfig.h"
 #include "spmatrix.h"
-#include "spDefs.h"
+#include "spdefs.h"
 
 #if FORTRAN
 

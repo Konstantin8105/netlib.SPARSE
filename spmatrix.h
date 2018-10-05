@@ -47,7 +47,7 @@
  *      Macros that customize the sparse matrix routines.
  */
 
-#include "spConfig.h"
+#include "spconfig.h"
 
 
 
